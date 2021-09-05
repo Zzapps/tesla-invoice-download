@@ -1,0 +1,12 @@
+{
+    "name": "Tesla invoicing multi-download",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+    "name": "Click to get invoices"
+    },
+    "background":{
+        "scripts":["background.js"]
+    },
+    "permissions":["https://www.tesla.com/teslaaccount/charging"]
+}
